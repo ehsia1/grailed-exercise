@@ -41,7 +41,7 @@ class UsersTableFixes():
 
     """
         this function is the general resolve logic for both disallowed and collisions.
-        parameters: usersToResolve (map) - map of user objects to resolve
+        parameters: usersToResolve (list) - list of user tuples (id, username) to resolve
                     collisionOrDisallowed (bool) - if true, we're resolving collisions, else
                                                     we're resolving disallowed
                     dryRun (bool) - default False, but if true, we print and do not commit to db
