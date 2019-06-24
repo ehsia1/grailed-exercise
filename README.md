@@ -20,7 +20,7 @@ with functions:
     * `dryRun`, an optional bool which if set will just print changes to console rather than committing them to the db.
     
 In order to test, I wrote unit tests in the file `test.py`, testing each of the main functions of the challenge. `test.py` uses a copy of the
-sample db given called `test.db`.
+sample db given called `test.db`. Note that if there's a change to `test.db` (as in it's a copy of a different db), the tests will fail.
 
 ## Using `solution.py`
 `solution.py` uses the argparse module in the main script. I created flags to run the script. Here is a breakdown of the flags and how to
