@@ -1,6 +1,7 @@
 # Evan Hsia Coding Challenge Grailed
 
 I wrote my solution in Python 2.7, in which I have about 2-3 years of full experience in classroom and internship settings.
+I wrote all code myself, using sqlite3, argparse, shutil, and unittest modules from Python.
 My main solution is all in the file `solution.py`. In it is a main function in order to run the script, and the class `UsersTableFixes()` 
 with functions:
   * `findAllDisallowedUsers()`: which finds all users with disallowed usernames
